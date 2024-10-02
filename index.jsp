@@ -1,18 +1,10 @@
-
-<%!
-//variables
-int a=20,b=30;
-//method
-public int add(int x, int y)
-{
-	return x+y;
-}
-%>
-<%
-System.out.println("Output="+add(a,b)); // console
-out.println("Output="+add(a,b)); // browser and it is a implicit object
-%>
-<br>
-<b>a:<%=a%></b><br>
-<b>b:<%=b%></b><br>
-<b>Output:<%=add(a,b)%></b><br>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello World JSP</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+</body>
+</html>
